@@ -145,6 +145,7 @@ The results highlight which tools and technologies employers request most freque
 | python   |         4330 |
 | tableau  |         3745 |
 | power bi |         2609 |
+
 *Table of the most in-demand skills for data analysts*
 
 - `SQL` and `Excel` continue to be core requirements for remote Data Analyst positions, showing that employers still rely heavily on solid data extraction, analysis, and spreadsheet skills. 
