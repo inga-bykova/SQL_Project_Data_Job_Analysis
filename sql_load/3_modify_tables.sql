@@ -1,6 +1,4 @@
-/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
-Database Load Issues (follow if receiving permission denied when running SQL code below)
-
+/*
 NOTE: If you are having issues with permissions. And you get error: 
 
 'could not open file "[your file path]\job_postings_fact.csv" for reading: Permission denied.'
@@ -22,8 +20,6 @@ NOTE: If you are having issues with permissions. And you get error:
 \copy skills_job_dim FROM '/Users/ingabykova/SQL_Project_Data_Job_Analysis/csv_files/skills_job_dim.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 */
-
--- NOTE: This has been updated from the video to fix issues with encoding
 
 COPY company_dim
 FROM '/Users/ingabykova/SQL_Project_Data_Job_Analysis/csv_files/company_dim.csv'
