@@ -24,6 +24,7 @@ INNER JOIN skills_dim AS skill ON skill.skill_id = remote_skill_jobs.skill_id
 ORDER BY remote_skill_jobs.skill_count DESC
 LIMIT 5;
 
+/* One more query */
 
 SELECT 
     skills,
