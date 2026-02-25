@@ -203,6 +203,7 @@ The presence of skills such as `Elasticsearch` and `Swift` shows that higher-pay
 | elasticsearch | 145000     |
 | golang        | 145000     |
 | numpy         | 143513     |
+
 *Table of the average salary for the top paying skills for data analysts*
 
 ### 5. What are the most optimal skills to learn?
